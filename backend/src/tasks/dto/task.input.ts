@@ -1,6 +1,6 @@
 import { InputType, Field } from '@nestjs/graphql';
 import { IsString, IsEnum, IsOptional, IsUUID } from 'class-validator';
-import { TaskStatus, TaskPriority } from './task.entity';
+import { TaskStatus, TaskPriority } from '../task.entity';
 
 @InputType()
 export class CreateTaskInput {

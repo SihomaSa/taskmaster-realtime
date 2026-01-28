@@ -1,6 +1,6 @@
 import { InputType, Field, ObjectType } from '@nestjs/graphql';
 import { IsEmail, IsString, MinLength } from 'class-validator';
-import { User } from '../users/user.entity';
+import { User } from '../../users/user.entity';
 
 @InputType()
 export class RegisterInput {

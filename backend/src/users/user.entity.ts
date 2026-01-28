@@ -2,6 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, OneToMany } f
 import { ObjectType, Field, ID } from '@nestjs/graphql';
 import { Task } from '../tasks/task.entity';
 
+
 @Entity('users')
 @ObjectType()
 export class User {
